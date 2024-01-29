@@ -6,7 +6,7 @@ encrypted_file.close()
 
 # Write Code Here
 message = ""
-for i in range(len(encrypted_message) // 2):
+for i in range(len(encrypted_message)):
     if i % 2 == 0:
         message += encrypted_message[i : i + 1]
     else:
